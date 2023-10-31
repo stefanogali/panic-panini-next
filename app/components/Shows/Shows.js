@@ -52,7 +52,7 @@ export default function Shows() {
 					<TourDates />
 				</div>
 
-				<div className={`absolute bottom-0 left-1/2 -translate-x-1/2 flex flex-col items-center justify-center transition${!isScrollMoreVisible ? " opacity-0" : ""}`} onClick={clickHandler}>
+				<div className={`absolute bottom-5 left-1/2 -translate-x-1/2 flex flex-col items-center justify-center transition${!isScrollMoreVisible ? " opacity-0" : ""}`} onClick={clickHandler}>
 					<p className="text-yellow-btn-primary text-sm underline cursor-pointer">Show more</p>
 					<ArrowBottom />
 				</div>
