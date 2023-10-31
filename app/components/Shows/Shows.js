@@ -42,7 +42,7 @@ export default function Shows() {
 	}, [scrollableDivRef]);
 
 	return (
-		<section id="shows" className={`w-full relative mt-16 bg-incoming-shows bg-cover bg-no-repeat bg-center h-screen max-h-[49rem] min-h-[45rem] lg:mt-56 reveal${isIntersecting ? " visible" : ""}`} ref={showsContainerRef}>
+		<section id="shows" className={`w-full relative mt-16 bg-incoming-shows bg-cover bg-no-repeat bg-center h-[32rem] lg:h-screen lg:min-h-[45rem] lg:max-h-[49rem] lg:mt-56 reveal${isIntersecting ? " visible" : ""}`} ref={showsContainerRef}>
 			<Container customClasses="pb-2.5 h-full">
 				<div className="flex flex-col items-center text-white pt-11">
 					<h2 className="text-4xl font-bold">Incoming Shows &#127928;</h2>
