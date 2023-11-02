@@ -76,7 +76,7 @@ export default function PhotoGallery() {
 	};
 
 	return (
-		<section id="photo-gallery" className={`w-full mt-16 pb-16 mb-[28rem] sm:mb-[27rem] md:mb-[26rem] lg:mt-56 lg:pb-56 lg:mb-[21rem] reveal${isIntersecting ? " visible" : ""}`} ref={sectionRef}>
+		<section id="photo-gallery" className={`w-full mt-16 pb-16 lg:mt-56 lg:pb-56 lg:mb-[21rem] reveal${isIntersecting ? " visible" : ""}`} ref={sectionRef}>
 			<Container>
 				<h2 className="font-bold text-6xl pb-6">Gallery</h2>
 				<p>Past shows.</p>
