@@ -5,7 +5,7 @@ import NewAlbum from "../NewAlbum/NewAlbum";
 
 export default function Intro() {
 	return (
-		<section id="intro" className="relative flex flex-col items-center h-screen w-full overflow-hidden max-h-[93rem] min-h-[45rem] lg:flex-row lg:justify-start">
+		<section id="intro" className={`relative flex flex-col items-center h-screen w-full overflow-hidden max-h-[93rem] min-h-[40rem] lg:flex-row lg:justify-start`}>
 			<BandIdentity />
 			<div className="absolute w-full h-full top-0 left-0">
 				<div className="absolute w-full h-full top-0 left-0 bg-gradient-to-b from-purple-500 to-pink-500 opacity-10"></div>
