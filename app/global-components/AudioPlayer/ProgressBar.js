@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const formatTime = (time) => {
 	if (time && !isNaN(time)) {
 		const minutes = Math.floor(time / 60);
@@ -16,7 +18,10 @@ export default function ProgressBar({ progressBarRef, audioRef, timeProgress, du
 
 	return (
 		<div className="flex flex-col progress pt-2">
-			<span className="text-base font-bold text-white">{formatTime(timeProgress)}</span>
+			<div className="flex items-center">
+				<span className="text-base font-bold text-white">{formatTime(timeProgress)}</span>
+				{!audioRef.current?.paused && timeProgress < 0.5 && <Image className="ml-2 max-w-[2.5rem]" src="/three-dots.svg" width={120} height={30} alt="Loader" />}
+			</div>
 			<input type="range" ref={progressBarRef} defaultValue="0" onChange={handleProgressChange} />
 			<span className="text-base font-bold text-white">{formatTime(duration)}</span>
 		</div>
