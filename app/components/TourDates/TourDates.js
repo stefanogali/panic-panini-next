@@ -112,23 +112,23 @@ export default function TourDates() {
 		<ul className="list-none">
 			{tourDates.map((gig) => {
 				return (
-					<li key={gig.id} className="flex items-center flex-col justify-center py-5 border-solid border-b-2 border-white last:border-b-0 leading-tight text-xl md:text-2xl lg:text-2xl xl:text-3xl lg:flex-row lg:justify-between">
-						<div className="flex w-full items-center justify-between md:w-[70%] lg:w-6/12 lg:justify-start">
-							<div className="flex flex-col justify-center items-center date w-[74px] h-[74px] p-2 bg-fluo-green rounded-md lg:mr-12 lg:w-[85px] lg:h-[85px]">
+					<li key={gig.id} className="flex items-center justify-between py-2 border-solid border-b-2 border-white last:border-b-0 leading-tight text-xl md:py-3 md:text-2xl lg:py-5 lg:justify-center lg:text-2xl xl:text-3xl lg:flex-row">
+						<div className="flex flex-col items-center justify-between text-center text-base leading-none w-[40%] md:text-xl lg:w-6/12 lg:flex-row lg:justify-start lg:text-left lg:text-2xl">
+							<div className="flex flex-col justify-center items-center date w-[55px] h-[55px] leading-tight p-2 bg-fluo-green rounded-md lg:mr-12 lg:w-[85px] lg:h-[85px]">
 								<p className="font-bold text-center uppercase">{gig.date}</p>
 							</div>
-							<div className=" text-white font-semibold lg:ml-[20%]">
+							<div className=" text-white font-semibold leading-tight lg:ml-[20%]">
 								<p>{gig.day}</p>
 								<p>{gig.time}</p>
 							</div>
 						</div>
-						<div className="flex w-full mt-2.5 items-center justify-between md:w-[70%] lg:w-6/12 lg:mt-0">
-							<div className="text-white font-semibold">
+						<div className="flex flex-col mt-2.5 items-center text-center text-base justify-between w-[60%] md:text-xl lg:flex-row lg:text-left lg:w-6/12 lg:mt-0 lg:text-2xl">
+							<div className="text-white font-semibold leading-tight">
 								<p>{gig.venue}</p>
 								<p>{gig.city}</p>
 							</div>
 							<div className="ml-2.5 lg:ml-auto">
-								<ButtonPrimary>Get Ticket</ButtonPrimary>
+								<ButtonPrimary customClasses="text-xs md:text-sm lg:text-base">Get Ticket</ButtonPrimary>
 							</div>
 						</div>
 					</li>
