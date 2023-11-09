@@ -27,7 +27,7 @@ export default function Shows() {
 	useEffect(() => {
 		const scrollableDiv = scrollableDivRef.current;
 		const handleScroll = () => {
-			if (scrollableDiv.scrollTop + scrollableDiv.offsetHeight >= scrollableDiv.scrollHeight) {
+			if (scrollableDiv.scrollTop + scrollableDiv.offsetHeight + scrollableDivRef.current.childNodes[0].children[0].offsetHeight >= scrollableDiv.scrollHeight) {
 				setIsScrollMoreVisible(false);
 			} else {
 				setIsScrollMoreVisible(true);
