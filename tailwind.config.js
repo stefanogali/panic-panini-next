@@ -21,9 +21,6 @@ module.exports = {
 			boxShadow: {
 				"centered-shadow": "0px 0px 19px 4px rgba(0,0,0,0.1)",
 			},
-			height: {
-				screen: ["100vh /* fallback for Opera, IE and etc. */", "100dvh"],
-			},
 		},
 	},
 	plugins: [],
