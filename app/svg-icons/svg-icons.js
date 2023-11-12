@@ -1,6 +1,6 @@
 export const ArrowBottom = () => {
 	return (
-		<svg className="max-w-[15px] h-auto ml-1.5" fill="#ffc621" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40.67 22.18">
+		<svg className="max-w-[0.9rem] h-auto ml-1.5" fill="#ffc621" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40.67 22.18">
 			<path d="m40.13.54c-.72-.72-1.89-.72-2.61,0l-17.18,17.18L3.16.54c-.72-.72-1.89-.72-2.61,0C-.18,1.26-.18,2.43.54,3.16l18.49,18.48c.35.35.82.54,1.31.54s.96-.19,1.31-.54L40.13,3.16c.72-.72.72-1.89,0-2.61Z" />
 		</svg>
 	);

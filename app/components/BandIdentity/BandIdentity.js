@@ -18,8 +18,8 @@ export default function BandIdentity() {
 				</Container>
 			</div>
 			<div className="hidden h-full flex-col justify-between grow-0 shrink-0 bg-black z-10 bg-opacity-30 lg:flex">
-				<div className="logo-container border-y-[20px] border-fluo-green py-4 opacity-1">
-					<Image className="px-12 py-3 max-w-[300px] h-auto" src="/logo-portrait.png" width={324} height={236} alt="Panic Panini logo" />
+				<div className="logo-container border-y-[1.25rem] border-fluo-green py-4 opacity-1">
+					<Image className="px-12 py-3 max-w-[18.75rem] h-auto" src="/logo-portrait.png" width={324} height={236} alt="Panic Panini logo" />
 				</div>
 				<NewAlbum />
 			</div>
