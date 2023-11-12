@@ -1,3 +1,4 @@
+import Footer from "./components/Footer/Footer";
 import "./globals.css";
 
 export const metadata = {
@@ -8,7 +9,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
 	return (
 		<html lang="en">
-			<body className="font-poppins text-2xl xl:text-3xl">{children}</body>
+			<body className="font-poppins text-2xl xl:text-3xl">
+				{children}
+				<Footer />
+			</body>
 		</html>
 	);
 }

@@ -17,7 +17,7 @@ export default function Footer() {
 						</div>
 					</Container>
 				</div>
-				<div className="bg-fluo-green py-3">
+				<div className="bg-fluo-green py-3 relative z-[100]">
 					<Container customClasses="flex justify-between items-center">
 						<Image className="max-w-[10rem] lg:max-w-[15rem] h-auto" src="/logo-landscape.png" width={815} height={144} alt="Footer logo" />
 						<div className="flex gap-3 md:gap-4">
