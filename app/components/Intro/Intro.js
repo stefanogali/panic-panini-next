@@ -31,7 +31,7 @@ export default function Intro() {
 			<div className="absolute w-full h-full top-0 left-0">
 				<div className="absolute w-full h-full top-0 left-0 bg-gradient-to-b from-purple-500 to-pink-500 opacity-10"></div>
 				<div className="absolute w-full h-full top-0 left-0 bg-hero-pattern bg-repeat"></div>
-				<video autoPlay muted loop poster="/frame-band.jpg" className="object-cover w-full h-full z-10">
+				<video autoPlay muted loop poster="/frame-band.jpg" className="object-cover w-full h-full z-10" playsInline>
 					<source src="./video-band.webm" type="video/webm" />
 					<source src="./video-band.mp4" type="video/mp4" />
 					<p>
