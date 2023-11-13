@@ -6,7 +6,6 @@ export function useIsIntersecting(options, elementRef, keepWatching, callback, c
 	useEffect(() => {
 		if (isIntersecting && !keepWatching) return;
 		const observer = new IntersectionObserver(([entry]) => {
-			console.log("entry", entry);
 			if (entry.isIntersecting) {
 				setIsIntersecting(true);
 				if (callback) {
