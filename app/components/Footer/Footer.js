@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function Footer() {
 	return (
-		<section id="footer" className="bg-black w-full lg:fixed lg:bottom-0 lg:z-[-1] lg:h-[23rem]">
+		<section id="footer" className="bg-black w-full lg:fixed lg:bottom-0 lg:z-[-1] lg:h-[25.5rem]">
 			<footer className="w-full">
 				<div className=" py-16">
 					<Container customClasses="flex flex-col lg:items-center lg:flex-row">
@@ -36,12 +36,18 @@ export default function Footer() {
 						</div>
 					</Container>
 					<div className="bg-black text-white mt-2 py-2">
-						<p className="text-[0.7rem] text-center leading-none">
+						<p className="text-[0.7rem] text-center leading-tight mb-1">
 							Website powered by{" "}
 							<a className="text-yellow-btn-primary underline underline-offset-4 hover:text-yellow-600" href="https://www.paninopanini.co.uk/" target="_blank" rel="noreferrer">
 								Panino Panini
 							</a>{" "}
 							😎
+						</p>
+						<p className="text-[0.7rem] text-center leading-tight">
+							This website template is available for you to use on my <br />
+							<a className="text-yellow-btn-primary underline underline-offset-4 hover:text-yellow-600" href="https://github.com/stefanogali" target="_blank" rel="noreferrer">
+								Github page
+							</a>
 						</p>
 					</div>
 				</div>
