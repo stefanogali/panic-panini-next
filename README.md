@@ -1,6 +1,10 @@
 # [Panic Panini Next.Js template](https://panic-panini-next.vercel.app/)
 
-This is a [Next.js](https://nextjs.org/) + [Tailwindcss](https://tailwindcss.com/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). Starter Next.Js theme template for your client (or yours 🎸) Rock'n'Roll band!
+This is a [Next.js](https://nextjs.org/) + [Tailwindcss](https://tailwindcss.com/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+Starter Next.Js theme template for your client (or yours 🎸) Rock'n'Roll band!
+
+The live project can be found at [https://panic-panini-next.vercel.app/](https://panic-panini-next.vercel.app/)
 
 ![Band playing](/public/panic-panini-template2.png?raw=true "Panic Panini intro template")
 
