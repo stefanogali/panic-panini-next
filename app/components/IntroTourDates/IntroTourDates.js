@@ -4,7 +4,7 @@ import { useRef } from "react";
 import { useIsIntersecting } from "@/app/util/useObserver";
 import ScrollTo from "@/app/global-components/ScrollTo/ScrollTo";
 import ButtonPrimary from "@/app/global-components/ButtonPrimary/ButtonPrimary";
-import { MapMapper } from "@/app/svg-icons/svg-icons";
+import { MapMapper, Github } from "@/app/svg-icons/svg-icons";
 
 const observerOptions = {
 	rootMargin: "0px",
@@ -40,7 +40,7 @@ export default function IntroTourDates() {
 	const isIntersecting = useIsIntersecting(observerOptions, sectionRef);
 	return (
 		<div className={`flex flex-col justify-center items-center reveal lg:justify-end lg:items-end${isIntersecting ? " visible" : ""}`} ref={sectionRef}>
-			<h2 className="text-white font-permanentMarker text-2xl md:text-3xl lg:text-4xl">⚡ Tour Dates ⚡</h2>
+			<h2 className="text-white font-permanentMarker text-2xl md:text-3xl lg:text-4xl">⚡ Free Template ⚡</h2>
 			<ul className="list-none">
 				{tourDates.map((gig) => {
 					return (
@@ -64,7 +64,13 @@ export default function IntroTourDates() {
 					);
 				})}
 			</ul>
-			<div className="hidden lg:block">
+			<div className="hidden gap-x-3 lg:flex">
+				<a href="https://github.com/stefanogali/panic-panini-next" target="_blank" rel="noreferrer">
+					<ButtonPrimary customClasses="flex gap-x-1 ">
+						<Github extraClasses="w-5 fill-white" />
+						Github Repo
+					</ButtonPrimary>
+				</a>
 				<ScrollTo toId="shows" duration={1500}>
 					<ButtonPrimary>Find out more</ButtonPrimary>
 				</ScrollTo>
