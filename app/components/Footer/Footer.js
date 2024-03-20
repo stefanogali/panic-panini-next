@@ -26,7 +26,7 @@ export default function Footer() {
                 alt="GL Bajaj"
                 className="inline mr-2"
               />
-              <p className="my-2">A blah blah hackathon, ... content TODO</p>
+              <p className="my-2">CodeClash - a hackathon by GL Bajaj where coders meet, clash and innovate.</p>
             </div>
             <div className="flex items-cente w-full mt-2.5 lg:mt-0 lg:basis-1/3 lg:justify-end">
               <FooterForm />
