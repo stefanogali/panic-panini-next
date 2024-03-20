@@ -4,7 +4,7 @@ import { useRef, useState, useEffect } from "react";
 import BandIdentity from "../BandIdentity/BandIdentity";
 import Container from "@/app/global-components/Container/Container";
 import IntroTourDates from "../IntroTourDates/IntroTourDates";
-import NewAlbum from "../Tagline/Tagline";
+import Tagline from "../Tagline/Tagline";
 import BackToTop from "../BackToTop/BackToTop";
 import { useIsIntersecting } from "@/app/util/useObserver";
 import CookieConsent from "react-cookie-consent";
@@ -56,7 +56,7 @@ export default function Intro() {
       <Container customClasses="flex flex-col justify-center items-center absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 lg:justify-end lg:items-end">
         <IntroTourDates />
       </Container>
-      <NewAlbum customClasses="mt-auto z-50 lg:hidden" />
+      <Tagline customClasses="mt-auto z-50 lg:hidden" />
       <BackToTop
         customClasses={`reveal${
           !isIntersecting && scrolledDown ? " visible" : ""

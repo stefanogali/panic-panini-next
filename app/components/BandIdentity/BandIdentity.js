@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Container from "@/app/global-components/Container/Container";
 import ButtonPrimary from "@/app/global-components/CustomButtons/ButtonPrimary";
-import NewAlbum from "../Tagline/Tagline";
+import Tagline from "../Tagline/Tagline";
 
 export default function BandIdentity() {
   return (
@@ -39,7 +39,7 @@ export default function BandIdentity() {
             alt="Panic Panini logo"
           />
         </div>
-        <NewAlbum />
+        <Tagline />
       </div>
     </>
   );

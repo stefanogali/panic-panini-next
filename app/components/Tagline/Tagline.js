@@ -1,4 +1,4 @@
-export default function NewAlbum({ customClasses }) {
+export default function Tagline({ customClasses }) {
   return (
     <div
       className={`flex flex-col items-center justify-center p-4${
@@ -9,7 +9,7 @@ export default function NewAlbum({ customClasses }) {
         where coders clash
       </h4>
       <h4 className="text-white font-rockSalt text-xl">and champions arise</h4>
-      <p className="text-fluo-green text-base">31 Hrs Offline hackathon</p>
+      <p className="text-fluo-green text-base">GLBITM, Greater Noida</p>
     </div>
   );
 }
