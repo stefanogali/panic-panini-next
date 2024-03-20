@@ -6,16 +6,16 @@ import ContactUs from "./components/ContactUs/ContactUs";
 import PhotoGallery from "./components/PhotoGallery/PhotoGallery";
 
 export default function Home() {
-	return (
-		<>
-			<main className="min-h-screen bg-white">
-				<Intro />
-				<About />
-				<Listen />
-				<Shows />
-				<ContactUs />
-				<PhotoGallery />
-			</main>
-		</>
-	);
+  return (
+    <>
+      <main className="min-h-screen bg-white">
+        <Intro />
+        <About />
+        <Listen />
+        <Shows />
+        <ContactUs />
+        <PhotoGallery />
+      </main>
+    </>
+  );
 }
