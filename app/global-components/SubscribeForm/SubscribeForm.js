@@ -1,6 +1,6 @@
 "use client";
 
-import ButtonPrimary from "../ButtonPrimary/ButtonPrimary";
+import ButtonPrimary from "../CustomButtons/ButtonPrimary";
 
 export default function SubscribeForm() {
 	const formHandler = (event) => {

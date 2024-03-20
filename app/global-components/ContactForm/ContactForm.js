@@ -1,5 +1,5 @@
 "use client";
-import ButtonPrimary from "../ButtonPrimary/ButtonPrimary";
+import ButtonPrimary from "../CustomButtons/ButtonPrimary";
 
 export default function ContactForm() {
 	const formHandler = (event) => {

@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import Container from "@/app/global-components/Container/Container";
-import ButtonPrimary from "@/app/global-components/ButtonPrimary/ButtonPrimary";
+import ButtonPrimary from "@/app/global-components/CustomButtons/ButtonPrimary";
 import NewAlbum from "../NewAlbum/NewAlbum";
 import ScrollTo from "@/app/global-components/ScrollTo/ScrollTo";
 

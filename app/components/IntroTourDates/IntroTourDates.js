@@ -3,7 +3,7 @@
 import { useRef } from "react";
 import { useIsIntersecting } from "@/app/util/useObserver";
 import ScrollTo from "@/app/global-components/ScrollTo/ScrollTo";
-import ButtonPrimary from "@/app/global-components/ButtonPrimary/ButtonPrimary";
+import ButtonPrimary from "@/app/global-components/CustomButtons/ButtonPrimary";
 import { MapMapper, Github } from "@/app/svg-icons/svg-icons";
 
 const observerOptions = {

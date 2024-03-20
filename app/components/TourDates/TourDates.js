@@ -1,4 +1,4 @@
-import ButtonPrimary from "@/app/global-components/ButtonPrimary/ButtonPrimary";
+import ButtonPrimary from "@/app/global-components/CustomButtons/ButtonPrimary";
 
 const tourDates = [
 	{
