@@ -30,7 +30,7 @@ export default function ContactForm() {
 				<textarea className="block w-full bg-transparent rounded-md border-[1px] p-2.5 text-gray-900 shadow-none placeholder:text-gray-400 focus:outline-none focus:ring-2 sm:leading-0 text-xs resize-none" id="message" rows="8"></textarea>
 			</div>
 			<div className="flex mt-3 lg:justify-end">
-				<ButtonPrimary>Send it</ButtonPrimary>
+				<ButtonPrimary>Send it (Coming soon...)</ButtonPrimary>
 			</div>
 		</form>
 	);
