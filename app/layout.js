@@ -2,7 +2,7 @@ import Footer from "./components/Footer/Footer";
 import "./globals.css";
 
 export const metadata = {
-  title: "CodeClash",
+  title: "CodeClash'24",
   description: "where coders clash and champions arise",
 };
 
