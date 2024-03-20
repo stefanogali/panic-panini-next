@@ -3,7 +3,8 @@
 import { useRef } from "react";
 import { useIsIntersecting } from "@/app/util/useObserver";
 import ButtonPrimary from "@/app/global-components/CustomButtons/ButtonPrimary";
-import { MapMapper, Github } from "@/app/svg-icons/svg-icons";
+import { MapMapper } from "@/app/svg-icons/svg-icons";
+import React, { useEffect } from "react";
 import Image from "next/image";
 
 const observerOptions = {
@@ -43,6 +44,17 @@ const tourDates = [
 ];
 
 export default function IntroTourDates() {
+  useEffect(() => {
+    const script = document.createElement("script");
+    script.src = "https://apply.devfolio.co/v2/sdk.js";
+    script.async = true;
+    script.defer = true;
+    document.body.appendChild(script);
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
+
   const sectionRef = useRef(null);
   const isIntersecting = useIsIntersecting(observerOptions, sectionRef);
   return (
@@ -81,7 +93,7 @@ export default function IntroTourDates() {
         })}
       </ul>
       <div className="hidden gap-x-3 lg:flex">
-        <a
+        {/* <a
           // href=""
           target="_blank"
           rel="noreferrer"
@@ -90,7 +102,14 @@ export default function IntroTourDates() {
             <Image src={"/devfolio.svg"} width={20} height={20} />
             Register On Devfolio
           </ButtonPrimary>
-        </a>
+        </a> */}
+        {/* devfolio button */}
+        <div
+          class="apply-button"
+          data-hackathon-slug="codeclash24"
+          data-button-theme="light"
+          style={{ height: "44px", width: "312px" }}
+        ></div>
       </div>
     </div>
   );

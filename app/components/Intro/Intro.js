@@ -43,7 +43,7 @@ export default function Intro() {
           poster="/frame-band.jpg"
           className="object-cover w-full h-full z-10"
           playsInline
-		  style={{ filter: 'brightness(25%)' }}
+          style={{ filter: "brightness(25%)" }}
         >
           <source src="./video-band.webm" type="video/webm" />
           <source src="./video-band.mp4" type="video/mp4" />
