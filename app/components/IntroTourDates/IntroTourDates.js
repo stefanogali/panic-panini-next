@@ -82,7 +82,7 @@ export default function IntroTourDates() {
       </ul>
       <div className="hidden gap-x-3 lg:flex">
         <a
-          href="https://github.com/stefanogali/panic-panini-next"
+          // href=""
           target="_blank"
           rel="noreferrer"
         >
