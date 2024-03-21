@@ -1,8 +1,7 @@
 "use client";
 
-import { useState, useRef } from "react";
+import { useRef } from "react";
 import { useIsIntersecting } from "@/app/util/useObserver";
-import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
 import Image from "next/image";
 import Container from "@/app/global-components/Container/Container";
@@ -12,7 +11,7 @@ const silverSponsors = [
     id: 1,
     src: "/sponsor_logos/devfolio.png",
     name: "Devfolio",
-    link: "https://devfolio.co",
+    link: "https://devfolio.co/",
   },
 ];
 
@@ -21,13 +20,13 @@ const bronzeSponsors = [
     id: 1,
     src: "/sponsor_logos/polygon.png",
     name: "Polygon",
-    link: "https://devfolio.co",
+    link: "https://www.polygon.com/",
   },
   {
     id: 2,
     src: "/sponsor_logos/ethindia.png",
     name: "EthIndia",
-    link: "https://devfolio.co",
+    link: "https://ethindia.co/",
   },
 ];
 
