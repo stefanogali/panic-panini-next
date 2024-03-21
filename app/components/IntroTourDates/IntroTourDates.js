@@ -43,14 +43,14 @@ const tourDates = [
   },
   {
     id: 3,
-    date: "3 May",
+    date: "6 May",
     dayTime: "Friday 09:30",
     event: "Hackathon Start",
     city: "GLBITM",
   },
   {
     id: 4,
-    date: "4 May",
+    date: "7 May",
     dayTime: "Saturday 17:00",
     event: "Hackathon End",
     city: "GLBITM",
