@@ -14,7 +14,7 @@ export default function Home() {
         {/* <Listen /> */}
         <Schedule />
         <ContactUs />
-        <PhotoGallery />
+        {/* <PhotoGallery /> */}
       </main>
     </>
   );

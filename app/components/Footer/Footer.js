@@ -18,6 +18,7 @@ export default function Footer() {
                 height={250}
                 alt="GL Bajaj"
                 className="inline mr-2"
+                priority={true}
               />
               <Image
                 src={"/logo_circle.png"}
@@ -26,7 +27,7 @@ export default function Footer() {
                 alt="GL Bajaj"
                 className="inline mr-2"
               />
-              <p className="my-2">CodeClash - a hackathon by GL Bajaj where coders meet, clash and innovate.</p>
+              <p className="my-2">CodeClash - a 31 hours hackathon by GL Bajaj where coders meet, clash and innovate.</p>
             </div>
             <div className="flex items-cente w-full mt-2.5 lg:mt-0 lg:basis-1/3 lg:justify-end">
               <FooterForm />

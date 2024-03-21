@@ -77,11 +77,11 @@ export default function PhotoGallery() {
 
 	return (
 		<section id="photo-gallery" className={`w-full mt-16 pb-14 lg:mt-56 lg:pb-56 lg:mb-[22.5rem] reveal${isIntersecting ? " visible" : ""}`} ref={sectionRef}>
-			<Container>
+			{/* <Container>
 				<h2 className="font-bold text-6xl pb-6 italic">Sponsors, Mentors & Judges</h2>
 				<p>Coming soon...</p>
 				<div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-5">
-					{/* {galleryThumbnails.map((item, index) => {
+					{galleryThumbnails.map((item, index) => {
 						return (
 							<div className="flex flex-col mb-5 leading-none" key={item.id}>
 								<div className="w-full h-full rounded-lg bg-fluo-green transition-all">
@@ -98,10 +98,10 @@ export default function PhotoGallery() {
 								</span>
 							</div>
 						);
-					})} */}
+					})}
 					<Lightbox open={openGallery} close={() => setOpenGallery(false)} slides={galleryThumbnails[galleryIndex].slides} />
 				</div>
-			</Container>
+			</Container> */}
 		</section>
 	);
 }

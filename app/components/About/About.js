@@ -23,7 +23,7 @@ export default function About() {
       ref={sectionRef}
     >
       <Container customClasses="lg:absolute lg:left-1/2 lg:-translate-x-1/2">
-        <div className="flex flex-col lg:max-w-md xl:max-w-2xl 2xl:max-w-4xl">
+        <div className="flex flex-col lg:max-w-md xl:max-w-2xl 2xl:max-w-4xl text-justify">
           <h2 className="font-bold text-6xl pb-6">About</h2>
           <p className="text-xl">
             CodeClash isn't just a hackathon—it's where over 200+ passionate
