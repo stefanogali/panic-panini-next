@@ -3,7 +3,7 @@ import About from "./components/About/About";
 import Listen from "./components/Listen/Listen";
 import Schedule from "./components/Schedule/Schedule";
 import ContactUs from "./components/ContactUs/ContactUs";
-import PhotoGallery from "./components/PhotoGallery/PhotoGallery";
+import Sponsors from "./components/Sponsors/Sponsors";
 
 export default function Home() {
   return (
@@ -13,8 +13,8 @@ export default function Home() {
         <About />
         {/* <Listen /> */}
         <Schedule />
+        <Sponsors />
         <ContactUs />
-        {/* <PhotoGallery /> */}
       </main>
     </>
   );
