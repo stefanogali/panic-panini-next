@@ -3,7 +3,7 @@
 import { useRef } from "react";
 import { useIsIntersecting } from "@/app/util/useObserver";
 import Container from "@/app/global-components/Container/Container";
-// import ContactForm from "@/app/global-components/ContactForm/ContactForm";
+import ContactForm from "@/app/global-components/ContactForm/ContactForm";
 
 const observerOptions = {
   rootMargin: "0px",
@@ -39,7 +39,7 @@ export default function ContactUs() {
               or fill the form below.
             </p>
           </div>
-          {/* <ContactForm /> */}
+          <ContactForm />
         </div>
       </Container>
     </section>

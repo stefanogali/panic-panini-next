@@ -1,35 +1,32 @@
-// "use server";
-import nodemailer from "nodemailer";
+"use client";
+import React, { useState } from "react";
 import ButtonPrimary from "../CustomButtons/ButtonPrimary";
+import { mailer } from "./mailer";
 
-export async function mailVerificationLink(from_name, from_email, message) {
-  var transporter = nodemailer.createTransport({
-    service: "gmail",
-    auth: {
-      user: "codeclash.glbitm@gmail.com",
-      pass: process.env.EMAIL_PASS,
-    },
+export default function ContactForm() {
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    message: "",
   });
 
-  var mailOptions = {
-    from: "codeclash.glbitm@gmail.com",
-    to: "codeclash.glbitm@gmail.com",
-    subject: `Website Message From: ${from_name} (${from_email})`,
-    text: `Message: ${message}`,
+  const handleChange = (e) => {
+    setFormData({
+      ...formData,
+      [e.target.name]: e.target.value,
+    });
   };
 
-  transporter.sendMail(mailOptions, function (error, info) {
-    if (error) {
-      console.log(error);
-    }
-  });
-}
-
-export default async function ContactForm() {
   const formHandler = async (event) => {
     event.preventDefault();
     console.log("form submitted!");
-    await mailVerificationLink();
+    const { name, email, message } = formData;
+    setFormData({
+      name: "",
+      email: "",
+      message: "",
+    });
+    await mailer(name, email, message);
   };
 
   return (
@@ -51,6 +48,8 @@ export default async function ContactForm() {
             type="text"
             name="name"
             id="name"
+            value={formData.name}
+            onChange={handleChange}
           />
         </div>
         <div className="flex flex-col">
@@ -66,6 +65,8 @@ export default async function ContactForm() {
             type="email"
             name="email"
             id="email"
+            value={formData.email}
+            onChange={handleChange}
           />
         </div>
       </div>
@@ -80,11 +81,14 @@ export default async function ContactForm() {
           required
           className="block w-full bg-transparent rounded-md border-[2px] p-2.5 text-gray-900 shadow-none placeholder:text-gray-400 focus:outline-none focus:ring-2 sm:leading-0 text-xs resize-none"
           id="message"
+          name="message"
           rows="8"
+          value={formData.message}
+          onChange={handleChange}
         ></textarea>
       </div>
       <div className="flex mt-3 lg:justify-end">
-        <ButtonPrimary>Send it</ButtonPrimary>
+        <ButtonPrimary type="submit">Send it</ButtonPrimary>
       </div>
     </form>
   );
