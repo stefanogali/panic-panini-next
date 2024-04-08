@@ -26,7 +26,7 @@ export default function About() {
         <div className="flex flex-col lg:max-w-md xl:max-w-2xl 2xl:max-w-4xl text-justify">
           <h2 className="font-bold text-6xl pb-6">About</h2>
           <p className="text-xl">
-            CodeClash isn't just a hackathon—it's where over 200+ passionate
+            CodeClash isn't just a hackathon—it's where over 300+ passionate
             developers collide, igniting sparks of innovation and birthing
             champions of the tech world. With themes spanning AI & web3,
             fintech, healthcare, edtech, and beyond, CodeClash offers a dynamic
