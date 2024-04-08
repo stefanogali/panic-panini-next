@@ -36,7 +36,7 @@ const tourDates = [
   },
   {
     id: 2,
-    date: "20 May",
+    date: "19 May",
     dayTime: "Saturday 23:59",
     event: "Registration End",
     city: "Devfolio",
