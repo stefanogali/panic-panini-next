@@ -29,28 +29,28 @@ const observerOptions = {
 const tourDates = [
   {
     id: 1,
-    date: "20 Mar",
+    date: "06 Apr",
     dayTime: "Wednesday 00:00",
     event: "Registration Start",
     city: "Devfolio",
   },
   {
     id: 2,
-    date: "27 Apr",
+    date: "20 May",
     dayTime: "Saturday 23:59",
     event: "Registration End",
     city: "Devfolio",
   },
   {
     id: 3,
-    date: "6 May",
+    date: "24 May",
     dayTime: "Friday 09:30",
     event: "Hackathon Start",
     city: "GLBITM",
   },
   {
     id: 4,
-    date: "7 May",
+    date: "25 May",
     dayTime: "Saturday 17:00",
     event: "Hackathon End",
     city: "GLBITM",
