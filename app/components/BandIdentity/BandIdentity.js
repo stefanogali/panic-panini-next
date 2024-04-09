@@ -31,7 +31,7 @@ export default function BandIdentity() {
             src="/logo-portrait.png"
             width={324}
             height={236}
-            alt="Panic Panini logo"
+            alt="CodeClash logo"
           />
           {/* <a
             // href=""
@@ -43,6 +43,8 @@ export default function BandIdentity() {
               Devfolio
             </ButtonPrimary>
           </a> */}
+        </Container>
+        <Container customClasses={"justify-center items-center"}>
           {/* Devfolio button */}
           <div
             className="apply-button"

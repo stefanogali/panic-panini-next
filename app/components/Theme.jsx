@@ -1,13 +1,16 @@
 "use client"
 import React from 'react';
 import ThemeCard from './ThemeComps/ThemeCard';
+import Container from '../global-components/Container/Container';
 
 
 function Theme() {
   return (
     <div className=' relative w-screen overflow-x-hidden'>
-      <div className='flex p-20 flex-col gap-12'>
-      <h1 className="text-5xl font-extrabold" id="faq">Tracks</h1>
+      <div className='flex lg:p-20 flex-col gap-12'>
+      <Container>
+        <h2 className="font-bold text-6xl mt-8">Tracks</h2>
+      </Container>
         <div className='flex flex-wrap gap-12 flex-rows'>
           <ThemeCard name={"open Innovation"} image={'./ThemeImages/openInno.png'}/>
           <ThemeCard name={"AI ML"} image={'./ThemeImages/ai.png'} />
