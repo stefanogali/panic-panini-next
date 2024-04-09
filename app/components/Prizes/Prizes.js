@@ -15,11 +15,16 @@ function PrizeCard({ prize_heading, cash_amount, voucher_amount }) {
   );
 }
 
+//for centering the text
+const centering = {
+  textAlign: 'center'
+};
+
 export default function Prizes() {
   return (
     <main className="mt-4">
       <Container>
-        <h2 className="font-bold text-6xl pb-6 mb-4">Prizes</h2>
+        <h2 className="font-bold text-6xl pb-6 mb-4" style={centering}>Prizes</h2>
       </Container>
 
       <Container customClasses={"flex flex-col lg:flex-row"}>
