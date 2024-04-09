@@ -44,7 +44,7 @@ export default function BandIdentity() {
             </ButtonPrimary>
           </a> */}
         </Container>
-        <Container>
+        <Container customClasses={"justify-center items-center"}>
           {/* Devfolio button */}
           <div
             className="apply-button"
