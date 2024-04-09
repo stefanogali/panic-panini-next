@@ -4,7 +4,7 @@ import Container from "@/app/global-components/Container/Container";
 
 function PrizeCard({ prize_heading, cash_amount, voucher_amount }) {
   return (
-    <div className="border-8 shadow-gray-500 rounded-lg shadow-2xl border-purple-600 m-2 w-96 h-64 p-4 bg-purple-400 bg-opacity-10">
+    <div className="border-8  shadow-gray-500 rounded-lg shadow-2xl border-purple-600 m-2 w-96 h-64 p-4 bg-purple-400 bg-opacity-10 transition-transform duration-300 ease-in hover:scale-105">
       <h2 className="text-3xl font-bold">{prize_heading}</h2>
       <p className="text-yellow-btn-primary text-2xl font-semibold">Cash Prize: ₹{cash_amount}</p>
       <p className="text-xl font-semibold">Vouchers: ₹{voucher_amount}</p>
