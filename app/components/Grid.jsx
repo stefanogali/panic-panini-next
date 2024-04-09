@@ -12,7 +12,7 @@ function Grid() {
 
         
         <SingleCard name="Harsh Raj" credentials="Lead Organiser" image={'./gridimages/harshraj.png'} url={"https://www.linkedin.com/in/harshraj2717/"}/>
-        <SingleCard name="Harsh Deep Gupta" credentials="Lead Organiser" image={'./gridimages/harshdeep.jpeg'} url={"https://www.linkedin.com/in/harsh-deep-313ba6248"}/>
+        <SingleCard name="Harsh Deep" credentials="Lead Organiser" image={'./gridimages/harshdeep.jpeg'} url={"https://www.linkedin.com/in/harsh-deep-313ba6248"}/>
         <SingleCard name="Ayush Kumar" credentials="GitHub Campus Expert" image={'./gridimages/ayushkumar.jpeg'} url={"https://www.linkedin.com/in/ayush-kumar-984443191/"}/>
         <SingleCard name="Prachi Agarwal" credentials="Content Lead & Co-host" image={'./gridimages/prachi.jpeg'} url={"https://www.linkedin.com/in/prachi-agarwal-000378230/"}/>
         <SingleCard name="Priyanshi Agarwal" credentials="Designing Lead" image={'./gridimages/priyanshi.jpg'} url={"https://www.linkedin.com/in/priyanshi-agrawal-a428aa201/"}/>
