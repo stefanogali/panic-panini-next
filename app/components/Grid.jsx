@@ -22,9 +22,9 @@ function Grid() {
         <div className='flex flex-wrap gap-12 flex-rows'>
         <SingleCard name="Aadhyaa Pahariya" credentials="Content Team" image={'./gridimages/aadhya.jpeg'} url={"https://www.linkedin.com/in/aadhyaa-pahariya-9181a9222/"}/>
         <SingleCard name="Amrita yadav" credentials="Content Team" image={'./gridimages/amrita.jpeg'} url={"https://www.linkedin.com/in/amrita-yadav-521523201/"}/>
-        <SingleCard name="Neelesh Maurya" credentials="Design Team" image={'./gridimages/neelesh.jpeg'} url={"https://www.linkedin.com/in/neeleshmaurya/"}/>
-        <SingleCard name="Jigisha Baliyann" credentials="Design Team" image={'./gridimages/Jigisha.png'} url={"https://in.linkedin.com/in/jigisha-baliyann"}/>  
-        <SingleCard name="Neha Rajvanshi" credentials="Design & Social Media Team" image={'./gridimages/neha.jpeg'} url={"https://www.linkedin.com/in/neha-rajvanshi-a180b0214/"}/>     
+        <SingleCard name="Neelesh Maurya" credentials="Designing Team" image={'./gridimages/neelesh.jpeg'} url={"https://www.linkedin.com/in/neeleshmaurya/"}/>
+        <SingleCard name="Jigisha Baliyann" credentials="Designing Team" image={'./gridimages/Jigisha.png'} url={"https://in.linkedin.com/in/jigisha-baliyann"}/>  
+        <SingleCard name="Neha Rajvanshi" credentials="Designing & Social Media Team" image={'./gridimages/neha.jpeg'} url={"https://www.linkedin.com/in/neha-rajvanshi-a180b0214/"}/>     
         </div>
         </div>
     </div>

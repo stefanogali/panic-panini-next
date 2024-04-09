@@ -13,7 +13,7 @@ function Theme() {
           <ThemeCard name={"AI ML"} image={'./ThemeImages/ai.png'} />
           <ThemeCard name={"web 3"} image={'./ThemeImages/web3.png'} />
         </div>
-
+ 
         <div className='flex flex-wrap gap-12 flex-rows'>
           <ThemeCard name={"Health Care"} image={'./ThemeImages/health.png'} />
           <ThemeCard name={"Edu-tech"} image={"./ThemeImages/edutech.png"} />

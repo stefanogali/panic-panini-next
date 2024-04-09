@@ -13,7 +13,7 @@ const silverSponsors = [
     name: "Devfolio",
     link: "https://devfolio.co/",
   },
-];
+]; 
 
 const bronzeSponsors = [
   {
