@@ -35,6 +35,12 @@ const observerOptions = {
   threshold: 0.2,
 };
 
+
+//for centering the text
+const centering = {
+  textAlign: 'center'
+};
+
 export default function Sponsors() {
   const sectionRef = useRef(null);
   const isIntersecting = useIsIntersecting(observerOptions, sectionRef);
@@ -48,7 +54,7 @@ export default function Sponsors() {
       ref={sectionRef}
     >
       <Container>
-        <h2 className="font-bold text-6xl pb-6 mb-4">Sponsors</h2>
+        <h2 className="font-bold text-6xl pb-6 mb-4" style={centering}>Sponsors</h2>
       </Container>
 
       <Container customClasses={"pl-10"}>
