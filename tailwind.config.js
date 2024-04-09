@@ -14,7 +14,7 @@ module.exports = {
 				rockSalt: ["Rock Salt", "sans-serif"],
 			},
 			colors: {
-				"fluo-green": "#43ffb6",
+				"fluo-green": "#9234e8",
 				"yellow-btn-primary": "#ffc621",
 				"medium-gray": "#bebebe",
 			},
