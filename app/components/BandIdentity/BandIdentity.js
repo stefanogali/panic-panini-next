@@ -31,7 +31,7 @@ export default function BandIdentity() {
             src="/logo-portrait.png"
             width={324}
             height={236}
-            alt="Panic Panini logo"
+            alt="CodeClash logo"
           />
           {/* <a
             // href=""
@@ -44,12 +44,14 @@ export default function BandIdentity() {
             </ButtonPrimary>
           </a> */}
           {/* Devfolio button */}
-          <div
-            className="apply-button"
-            data-hackathon-slug="codeclash24"
-            data-button-theme="light"
-            style={{ height: "44px", width: "312px" }}
-          ></div>
+          <div className="max-w-sm">
+            <div
+              className="apply-button"
+              data-hackathon-slug="codeclash24"
+              data-button-theme="light"
+              style={{ height: "44px", width: "312px" }}
+            ></div>
+          </div>
         </Container>
       </div>
       <div className="hidden h-full flex-col justify-between grow-0 shrink-0 bg-black z-10 bg-opacity-30 lg:flex">
