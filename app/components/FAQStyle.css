@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+   
+}
+
+
+body{
+    background-color: var(--Lightpink);
+    font-family: 'Work Sans', sans-serif;
+    
+    
+    
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    #container {
+      margin-left:  20px ;
+      margin-right:  20px ;
+    
+    }
+
+    #faq{
+        font-size: 2.5rem;
+    }
+  }
