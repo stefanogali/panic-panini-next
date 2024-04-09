@@ -16,7 +16,7 @@ function Grid() {
         <SingleCard name="Ayush Kumar" credentials="GitHub Campus Expert" image={'./gridimages/ayushkumar.jpeg'} url={"https://www.linkedin.com/in/ayush-kumar-984443191/"}/>
         <SingleCard name="Prachi Agarwal" credentials="Content Lead & Co-host" image={'./gridimages/prachi.jpeg'} url={"https://www.linkedin.com/in/prachi-agarwal-000378230/"}/>
         <SingleCard name="Priyanshi Agarwal" credentials="Designing Lead" image={'./gridimages/priyanshi.jpg'} url={"https://www.linkedin.com/in/priyanshi-agrawal-a428aa201/"}/>
-        <SingleCard name="Ashutosh Gupta" credentials="Tech Team" image={'./gridimages/ashu.jpg'} url={"https://www.linkedin.com/in/ashutooshgupta/"}/>
+        <SingleCard name="Ashutosh Gupta" credentials="Technical Team" image={'./gridimages/ashu.jpg'} url={"https://www.linkedin.com/in/ashutooshgupta/"}/>
         </div>
 
         <div className='flex flex-wrap gap-12 flex-rows'>
