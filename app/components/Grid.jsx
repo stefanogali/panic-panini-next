@@ -1,13 +1,19 @@
 "use client"
 import React from 'react'
 import SingleCard from './GridComps/SingleCard'
+  
 
+// for center the core team text
+const our_team = {
+  textAlign: 'center',
+  
+};
 
 function Grid() {
   return (
     <div className='relative  w-screen overflow-x-hidden'>
         <div className='flex p-20 flex-col gap-12'>
-        <h1 className="text-5xl font-extrabold" id="faq">Our Team</h1>
+        <h1 className="text-5xl font-extrabold" id="faq" style={our_team}>Core Team</h1>
         <div className='flex flex-wrap gap-12 flex-rows'>
 
         
