@@ -43,15 +43,15 @@ export default function BandIdentity() {
               Devfolio
             </ButtonPrimary>
           </a> */}
+        </Container>
+        <Container>
           {/* Devfolio button */}
-          <div className="max-w-sm">
-            <div
-              className="apply-button"
-              data-hackathon-slug="codeclash24"
-              data-button-theme="light"
-              style={{ height: "44px", width: "312px" }}
-            ></div>
-          </div>
+          <div
+            className="apply-button"
+            data-hackathon-slug="codeclash24"
+            data-button-theme="light"
+            style={{ height: "44px", width: "312px" }}
+          ></div>
         </Container>
       </div>
       <div className="hidden h-full flex-col justify-between grow-0 shrink-0 bg-black z-10 bg-opacity-30 lg:flex">
