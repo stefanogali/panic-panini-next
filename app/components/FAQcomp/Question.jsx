@@ -56,7 +56,7 @@ const Question = () => {
             <p className="font-bold py-2">{q.question}</p>
             {openQuestions[index] ? <img src={"./faqimages/icon-minus.svg"} alt="" className="filter grayscale"/> : <img src={"./faqimages/icon-plus.svg"} alt="" className="filter grayscale"/>}
           </div>
-          {openQuestions[index] && <p className="px-3 py-3 text-zinc-400 leading-5 tracking-wider">{q.answer}</p>}
+          {openQuestions[index] && <p className="px-3 py-3 text-zinc-400 text-lg leading-5 tracking-wider">{q.answer}</p>}
         </div>
       ))}
     </div>
