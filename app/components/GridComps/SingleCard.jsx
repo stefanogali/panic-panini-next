@@ -20,7 +20,7 @@ function SingleCard({name, credentials, image, url}) {
     </div>
     <div className='flex flex-col items-center'>
         <div className='text-xl font-medium'>{name}</div>
-        <div>{credentials}</div>
+        <div className='text-sm'>{credentials}</div>
     </div>
     </div>
     </>

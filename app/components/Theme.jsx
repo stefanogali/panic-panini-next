@@ -6,7 +6,7 @@ import ThemeCard from './ThemeComps/ThemeCard';
 function Theme() {
   return (
     <div className=' relative w-screen overflow-x-hidden'>
-      <div className='flex justify-between p-20 items-center flex-col gap-12'>
+      <div className='flex p-20 flex-col gap-12'>
       <h1 className="text-5xl font-extrabold" id="faq">Tracks</h1>
         <div className='flex flex-wrap gap-12 flex-rows'>
           <ThemeCard name={"open Innovation"} image={'./ThemeImages/openInno.png'}/>
