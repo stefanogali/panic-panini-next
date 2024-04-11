@@ -14,8 +14,8 @@ function PrizeCard({ prize_heading, cash_amount, voucher_amount }) {
     </div>
   );
 }
-
-//for centering the text
+   
+//for centering the text...
 const centering = {
   textAlign: 'center'
 };
