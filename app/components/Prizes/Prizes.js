@@ -53,7 +53,11 @@ export default function Prizes() {
           cash_amount={"1000"}
           voucher_amount={"20000"}
         />
+        
       </Container>
+      <><br></br></>
+
+      
     </main>
   );
 }
