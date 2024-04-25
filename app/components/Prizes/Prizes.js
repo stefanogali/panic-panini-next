@@ -49,7 +49,7 @@ export default function Prizes() {
           voucher_amount={"20000"}
         />
         <PrizeCard
-          prize_heading={"All Freshers Team"}
+          prize_heading={"All Fresher's Team"}
           cash_amount={"1000"}
           voucher_amount={"20000"}
         />
