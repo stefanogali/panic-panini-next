@@ -21,7 +21,11 @@ function Grid() {
 
         <SingleCard name="Harsh Deep" credentials="Lead Organiser" image={'./gridimages/harshdeep.jpeg'} url={"https://www.linkedin.com/in/harsh-deep-313ba6248"}/>
         <SingleCard name="Harsh Raj" credentials="Lead Organiser" image={'./gridimages/harshraj.png'} url={"https://www.linkedin.com/in/harshraj2717/"}/>
+ main
+        <SingleCard name="Harsh Deep" credentials="Lead Organiser" image={'./gridimages/harshdeep.jpeg'} url={"https://www.linkedin.com/in/harsh-deep-313ba6248"}/>
+
         <SingleCard name="Bhuvnesh Sharma" credentials="Lead Organiser" image={'./gridimages/bhuvnesh_bhaiya.png'} url={"https://www.linkedin.com/in/bhuvnesh-sharma-a7560a203/"}/>
+main
         <SingleCard name="Ayush Kumar" credentials="GitHub Campus Expert" image={'./gridimages/ayushkumar.jpeg'} url={"https://www.linkedin.com/in/ayush-kumar-984443191/"}/>
        
         <SingleCard name="Prachi Agarwal" credentials="Content Lead & Co-host" image={'./gridimages/prachi.jpeg'} url={"https://www.linkedin.com/in/prachi-agarwal-000378230/"}/>
