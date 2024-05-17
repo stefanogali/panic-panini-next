@@ -9,12 +9,8 @@
 body{
     background-color: var(--Lightpink);
     font-family: 'Work Sans', sans-serif;
-    
-    
-    
+        
 }
-
-
 
 @media only screen and (max-width: 600px) {
     #container {

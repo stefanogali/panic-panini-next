@@ -12,7 +12,7 @@ import CookieConsent from "react-cookie-consent";
 const observerOptions = {
   rootMargin: "0px",
   threshold: 0,
-};
+}; 
 
 export default function Intro() {
   const [scrolledDown, setScrolledDown] = useState(false);

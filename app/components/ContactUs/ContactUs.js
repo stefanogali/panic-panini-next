@@ -9,7 +9,7 @@ const observerOptions = {
   rootMargin: "0px",
   threshold: 0.3,
 };
-
+ 
 export default function ContactUs() {
   const sectionRef = useRef(null);
   const isIntersecting = useIsIntersecting(observerOptions, sectionRef);

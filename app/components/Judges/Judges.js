@@ -11,6 +11,10 @@ const observerOptions = {
   threshold: 0.2,
 };
 
+const centering = {
+  textAlign: 'center'
+};
+
 export default function Judges() {
   const sectionRef = useRef(null);
   const isIntersecting = useIsIntersecting(observerOptions, sectionRef);
@@ -24,7 +28,7 @@ export default function Judges() {
       ref={sectionRef}
     >
       <Container>
-        <h2 className="font-bold text-6xl pb-6">Judges</h2>
+        <h2 className="font-bold text-6xl pb-6" style={centering}>Judges</h2>
       </Container>
 
       <Container>

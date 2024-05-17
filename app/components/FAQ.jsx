@@ -10,7 +10,7 @@ function FAQ() {
     <Desktop/>
   
     <div/>
-  </div>
+  </div> 
   )
 }
 

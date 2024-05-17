@@ -16,7 +16,7 @@ export default function Home() {
         <Intro />
         <About />
         <Theme />
-        {/* <Prizes /> */}
+        <Prizes />
         <Schedule />
         <Sponsors />
         <Judges />
