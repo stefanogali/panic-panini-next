@@ -27,7 +27,7 @@ export default function Intro() {
 	}, [isIntersecting]);
 
 	return (
-		<section id="intro" className={`relative flex flex-col items-center h-[calc(100vh-3rem)] w-full overflow-hidden max-h-[93rem] min-h-[40rem] lg:h-screen lg:flex-row lg:justify-start`} ref={sectionRef}>
+		<section id="intro" className={`relative flex flex-col items-center h-[calc(100vh-3rem)] w-full overflow-hidden max-h-[93rem] min-h-[43rem] lg:h-screen lg:flex-row lg:justify-start`} ref={sectionRef}>
 			<BandIdentity />
 			<div className="absolute w-full h-full top-0 left-0">
 				<div className="absolute w-full h-full top-0 left-0 bg-gradient-to-b from-purple-500 to-pink-500 opacity-10"></div>

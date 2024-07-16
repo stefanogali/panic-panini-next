@@ -64,16 +64,18 @@ export default function IntroTourDates() {
 					);
 				})}
 			</ul>
-			<div className="hidden gap-x-3 lg:flex">
+			<div className="gap-x-3 lg:flex">
 				<a href="https://github.com/stefanogali/panic-panini-next" target="_blank" rel="noreferrer">
-					<ButtonPrimary customClasses="flex gap-x-1 ">
-						<Github extraClasses="w-5 fill-white" />
+					<ButtonPrimary customClasses="flex items-center gap-x-1 text-sm my-3 lg:text-base lg:mb-0">
+						<Github extraClasses="w-3 h-auto fill-white lg:w-5" />
 						Github Repo
 					</ButtonPrimary>
 				</a>
-				<ScrollTo toId="shows" duration={1500}>
-					<ButtonPrimary>Find out more</ButtonPrimary>
-				</ScrollTo>
+				<div className="hidden lg:block">
+					<ScrollTo toId="shows" duration={1500}>
+						<ButtonPrimary>Find out more</ButtonPrimary>
+					</ScrollTo>
+				</div>
 			</div>
 		</div>
 	);
