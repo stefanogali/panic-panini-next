@@ -4,7 +4,7 @@ import Listen from "./components/Listen/Listen";
 import Shows from "./components/Shows/Shows";
 import ContactUs from "./components/ContactUs/ContactUs";
 import PhotoGallery from "./components/PhotoGallery/PhotoGallery";
-
+import TextParallax from "./components/TextParallax/TextParallax";
 export default function Home() {
 	return (
 		<>
@@ -14,6 +14,7 @@ export default function Home() {
 				<Listen />
 				<Shows />
 				<ContactUs />
+				<TextParallax />
 				<PhotoGallery />
 			</main>
 		</>
