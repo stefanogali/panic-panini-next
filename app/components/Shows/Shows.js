@@ -53,7 +53,14 @@ export default function Shows() {
 			ref={showsContainerRef}>
 			<Container customClasses="pb-2.5 h-full">
 				<div className="flex flex-col items-center text-white pt-11">
-					<h2 className="text-2xl font-bold lg:text-4xl">Incoming Shows &#127928;</h2>
+					<div className="overflow-hidden">
+						<h2
+							className={`text-2xl translate-y-10 font-bold lg:text-4xl lg:translate-y-20 lg:leading-[3rem] ${
+								isInView ? "animate-slideUp" : ""
+							}`}>
+							Incoming Shows &#127928;
+						</h2>
+					</div>
 					<h4 className="text-base lg:text-2xl">We playin{`’`} in your town!</h4>
 				</div>
 				<div

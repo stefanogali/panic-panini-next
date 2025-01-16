@@ -31,7 +31,14 @@ export default function ContactUs() {
 						transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s",
 					}}>
 					<div className="flex flex-col max-w-4xl lg:text-right">
-						<h2 className="font-bold text-6xl pb-6">Contact us</h2>
+						<div className="overflow-hidden">
+							<h2
+								className={`font-bold text-6xl pb-6 translate-y-24 ${
+									isInView ? "animate-slideUp" : ""
+								}`}>
+								Contact us
+							</h2>
+						</div>
 						<p>
 							And get us a drink in case you around. <br></br>Email us at{" "}
 							<a

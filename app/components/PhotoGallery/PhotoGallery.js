@@ -105,7 +105,14 @@ export default function PhotoGallery() {
 			}}
 			ref={sectionRef}>
 			<Container>
-				<h2 className="font-bold text-6xl pb-6">Gallery</h2>
+				<div className="overflow-hidden">
+					<h2
+						className={`font-bold text-6xl pb-6 translate-y-24 ${
+							isInView ? "animate-slideUp" : ""
+						}`}>
+						Gallery
+					</h2>
+				</div>
 				<p>Past shows.</p>
 				<div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-5">
 					{galleryThumbnails.map((item, index) => {
