@@ -9,7 +9,6 @@ import ContactForm from "@/app/global-components/ContactForm/ContactForm";
 export default function ContactUs() {
 	const textRef = useRef(null);
 	const isInView = useInView(textRef, { once: true });
-	// test
 	return (
 		<section
 			id="contacts"
