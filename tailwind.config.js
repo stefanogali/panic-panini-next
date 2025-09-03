@@ -13,9 +13,9 @@ module.exports = {
 				"hero-pattern": "url('/pattern.png')",
 			},
 			fontFamily: {
-				permanentMarker: ["Permanent Marker", "sans-serif"],
-				poppins: ["Poppins", "sans-serif"],
-				rockSalt: ["Rock Salt", "sans-serif"],
+				permanentMarker: ["var(--font-permanent-marker)", "cursive"],
+				poppins: ["var(--font-poppins)", "sans-serif"],
+				rockSalt: ["var(--font-rock-salt)", "cursive"],
 			},
 			colors: {
 				"fluo-green": "#43ffb6",
