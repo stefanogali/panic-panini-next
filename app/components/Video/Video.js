@@ -1,14 +1,31 @@
+"use client";
+
+import { useRef } from "react";
+import { useInView } from "framer-motion";
 import Container from "@/app/global-components/Container/Container";
 import { DailyMotion, Youtube } from "@/app/svg-icons/svg-icons";
 
 export default function Video() {
+	const textRef = useRef(null);
+	const isInView = useInView(textRef, { once: true });
+
 	return (
 		<section id="video" className="w-full mt-16 lg:mt-56">
 			<Container customClasses="flex flex-col lg:flex-row">
-				<div className="flex flex-col justify-center basis-2/4 lg:max-w-lg xl:max-w-2xl 2xl:max-w-4xl">
+				<div
+					className="flex flex-col justify-center basis-2/4 lg:max-w-lg xl:max-w-2xl 2xl:max-w-4xl"
+					ref={textRef}
+					style={{
+						transform: isInView ? "none" : "translateX(-100px)",
+						opacity: isInView ? 1 : 0,
+						transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s",
+					}}>
 					<p>Watch our latest Music video</p>
 					<div className="overflow-hidden">
-						<h2 className={`font-bold text-6xl pb-6 opacity-100`}>Choose Life!</h2>
+						<h2
+							className={`font-bold text-6xl pb-6 opacity-0 ${isInView ? "animate-slide-up" : ""}`}>
+							Choose Life!
+						</h2>
 					</div>
 					<p>
 						Choose Life. Choose a job. Choose a career. Choose a family. Choose a fucking big
