@@ -44,7 +44,7 @@ export default function Shows() {
 	return (
 		<section
 			id="shows"
-			className={`w-full relative mt-16 bg-incoming-shows bg-cover bg-no-repeat bg-center h-[32rem] lg:h-screen lg:min-h-[45rem] lg:max-h-[49rem] lg:mt-56`}
+			className={`w-full relative mt-16 bg-incoming-shows bg-cover bg-no-repeat bg-center h-128 lg:h-screen lg:min-h-180 lg:max-h-196 lg:mt-56`}
 			style={{
 				transform: isInView ? "none" : "translateY(100px)",
 				opacity: isInView ? 1 : 0,
@@ -55,8 +55,8 @@ export default function Shows() {
 				<div className="flex flex-col items-center text-white pt-11">
 					<div className="overflow-hidden">
 						<h2
-							className={`text-2xl translate-y-10 font-bold lg:text-4xl lg:translate-y-20 lg:leading-[3rem] ${
-								isInView ? "animate-slideUp" : ""
+							className={`text-2xl opacity-0 font-bold lg:text-4xl lg:leading-12 ${
+								isInView ? "animate-slide-up" : ""
 							}`}>
 							Incoming Shows &#127928;
 						</h2>

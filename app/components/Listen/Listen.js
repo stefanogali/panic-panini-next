@@ -24,9 +24,7 @@ export default function Listen() {
 					<p>Listen to the new album:</p>
 					<div className="overflow-hidden">
 						<h2
-							className={`font-bold text-6xl pb-6 translate-y-36 md:translate-y-24 ${
-								isInView ? "animate-slideUp" : ""
-							}`}>
+							className={`font-bold text-6xl pb-6 opacity-0 ${isInView ? "animate-slide-up" : ""}`}>
 							Panic in the room
 						</h2>
 					</div>

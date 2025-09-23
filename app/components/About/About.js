@@ -12,7 +12,7 @@ export default function About() {
 	return (
 		<section
 			id="about"
-			className={`relative flex flex-col items-center justify-end w-full mt-16 mx-auto max-w-[150rem] lg:flex-row lg:mt-56`}>
+			className={`relative flex flex-col items-center justify-end w-full mt-16 mx-auto max-w-600 lg:flex-row lg:mt-56`}>
 			<Container customClasses="lg:absolute lg:left-1/2 lg:-translate-x-1/2">
 				<div
 					className="relative flex flex-col lg:max-w-md xl:max-w-2xl 2xl:max-w-4xl"
@@ -24,9 +24,7 @@ export default function About() {
 					}}>
 					<div className="overflow-hidden">
 						<h2
-							className={`font-bold text-6xl pb-6 translate-y-20 ${
-								isInView ? "animate-slideUp" : ""
-							}`}>
+							className={`font-bold text-6xl pb-6 opacity-0 ${isInView ? "animate-slide-up" : ""}`}>
 							About
 						</h2>
 					</div>

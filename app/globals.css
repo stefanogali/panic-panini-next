@@ -1,34 +1,85 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
-@layer utilities {
-	.font-rendering {
-		font-synthesis: none;
-		text-rendering: optimizeLegibility;
-		-webkit-font-smoothing: antialiased;
-		-moz-osx-font-smoothing: grayscale;
+@theme {
+	--background-image-album-cover: url("/panic-panini-album.jpg");
+	--background-image-incoming-shows: url("/coming-shows-bg.jpg");
+	--background-image-hero-pattern: url("/pattern.png");
+
+	--font-permanent-marker: var(--font-permanent-marker), cursive;
+	--font-poppins: var(--font-poppins), sans-serif;
+	--font-rock-salt: var(--font-rock-salt), cursive;
+
+	--color-fluo-green: #43ffb6;
+	--color-yellow-btn-primary: #ffc621;
+	--color-medium-gray: #bebebe;
+
+	--shadow-centered-shadow: 0px 0px 19px 4px rgba(0, 0, 0, 0.1);
+
+	--animate-slide-up: slideUp ease 0.3s forwards 1.2s;
+
+	@keyframes slideUp {
+		0% {
+			transform: translateY(80px);
+		}
+		100% {
+			transform: translateY(0px);
+			opacity: 1;
+		}
 	}
+}
+
+/*
+  The default border color has changed to `currentcolor` in Tailwind CSS v4,
+  so we've added these compatibility styles to make sure everything still
+  looks the same as it did with Tailwind CSS v3.
+
+  If we ever want to remove these styles, we need to add an explicit border
+  color utility to any element that depends on these defaults.
+*/
+@layer base {
+	*,
+	::after,
+	::before,
+	::backdrop,
+	::file-selector-button {
+		border-color: var(--color-gray-200, currentcolor);
+	}
+}
+
+@utility font-rendering {
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+@utility no-scrollbar {
 	/* Hide scrollbar for Chrome, Safari and Opera */
-	.no-scrollbar::-webkit-scrollbar {
+	&::-webkit-scrollbar {
 		display: none;
 	}
 
 	/* Hide scrollbar for IE, Edge and Firefox */
-	.no-scrollbar {
-		-ms-overflow-style: none; /* IE and Edge */
-		scrollbar-width: none; /* Firefox */
-	}
+	-ms-overflow-style: none; /* IE and Edge */
+	scrollbar-width: none; /* Firefox */
+}
 
+@utility reveal {
 	/* Element before intersection */
-	.reveal {
-		opacity: 0;
-		transform: translate3d(0, 100px, 0);
-		transition: opacity 0.8s, transform 0.8s;
-	}
+	opacity: 0;
+	transform: translate3d(0, 100px, 0);
+	transition: opacity 0.8s, transform 0.8s;
 
 	/* Element after intersection */
-	.reveal.visible {
+	&.visible {
+		opacity: 1;
+		transform: translate3d(0, 0, 0);
+	}
+}
+
+@utility visible {
+	/* Element after intersection */
+	&.reveal {
 		opacity: 1;
 		transform: translate3d(0, 0, 0);
 	}

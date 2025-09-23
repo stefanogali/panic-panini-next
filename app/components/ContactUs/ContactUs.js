@@ -12,7 +12,7 @@ export default function ContactUs() {
 	return (
 		<section
 			id="contacts"
-			className={`relative flex flex-col-reverse items-center w-full mt-16 mx-auto max-w-[150rem] lg:mt-56 lg:flex-row`}>
+			className={`relative flex flex-col-reverse items-center w-full mt-16 mx-auto max-w-600 lg:mt-56 lg:flex-row`}>
 			<Image
 				className="mt-5 max-h-96 object-cover lg:mt-0 lg:max-h-none lg:max-w-lg lg:block xl:max-w-xl"
 				src="/contacts.jpg"
@@ -32,8 +32,8 @@ export default function ContactUs() {
 					<div className="flex flex-col max-w-4xl lg:text-right">
 						<div className="overflow-hidden">
 							<h2
-								className={`font-bold text-6xl pb-6 translate-y-24 ${
-									isInView ? "animate-slideUp" : ""
+								className={`font-bold text-6xl pb-6 opacity-0 ${
+									isInView ? "animate-slide-up" : ""
 								}`}>
 								Contact us
 							</h2>

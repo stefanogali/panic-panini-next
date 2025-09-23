@@ -97,7 +97,7 @@ export default function PhotoGallery() {
 	return (
 		<section
 			id="photo-gallery"
-			className={`w-full mt-16 pb-14 lg:mt-56 lg:pb-56 lg:mb-[22.5rem]`}
+			className={`w-full mt-16 pb-14 lg:mt-56 lg:pb-56 lg:mb-90`}
 			style={{
 				transform: isInView ? "none" : "translateY(100px)",
 				opacity: isInView ? 1 : 0,
@@ -106,10 +106,7 @@ export default function PhotoGallery() {
 			ref={sectionRef}>
 			<Container>
 				<div className="overflow-hidden">
-					<h2
-						className={`font-bold text-6xl pb-6 translate-y-24 ${
-							isInView ? "animate-slideUp" : ""
-						}`}>
+					<h2 className={`font-bold text-6xl pb-6 opacity-0 ${isInView ? "animate-slide-up" : ""}`}>
 						Gallery
 					</h2>
 				</div>

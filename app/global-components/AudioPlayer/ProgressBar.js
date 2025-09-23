@@ -20,7 +20,7 @@ export default function ProgressBar({ progressBarRef, audioRef, timeProgress, du
 		<div className="flex flex-col progress pt-2">
 			<div className="flex items-center">
 				<span className="text-base font-bold text-white">{formatTime(timeProgress)}</span>
-				{!audioRef.current?.paused && timeProgress < 0.5 && <Image className="ml-2 max-w-[2.5rem]" src="/three-dots.svg" width={120} height={30} alt="Loader" />}
+				{!audioRef.current?.paused && timeProgress < 0.5 && <Image className="ml-2 max-w-10" src="/three-dots.svg" width={120} height={30} alt="Loader" />}
 			</div>
 			<input type="range" ref={progressBarRef} defaultValue="0" onChange={handleProgressChange} />
 			<span className="text-base font-bold text-white">{formatTime(duration)}</span>
