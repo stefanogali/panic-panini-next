@@ -72,6 +72,7 @@ export default function IntroTourDates() {
 							<div className="hidden text-right text-white leading-none md:flex">
 								<MapMapper extraClasses="fill-amber-400 mr-2" />
 								<p>{gig.city}</p>
+								{/*  */}
 							</div>
 						</li>
 					);
