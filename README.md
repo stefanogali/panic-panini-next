@@ -1,10 +1,10 @@
-# [Panic Panini Next.Js template](https://panic-panini-next.vercel.app/)
+# Futureproof Music Festival Web Page
 
 This is a [Next.js](https://nextjs.org/) + [Tailwindcss](https://tailwindcss.com/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-Starter Next.Js theme template for your client (or yours 🎸) Rock'n'Roll band!
+Page built to help advertise and organise events for Futureproof Music Fest.
 
-The live project can be found at [https://panic-panini-next.vercel.app/](https://panic-panini-next.vercel.app/)
+The live project can be found at [futureproof-music-festival.vercel.com](futureproof-music-festival.vercel.com)
 
 ![Band playing](/public/panic-panini-template2.png?raw=true "Panic Panini intro template")
 
@@ -13,7 +13,7 @@ The live project can be found at [https://panic-panini-next.vercel.app/](https:/
 First, clone the repo
 
 ```bash
-https://github.com/stefanogali/panic-panini-next.git
+git clone https://github.com/jaylenjinx/futureproof-music-festival && cd futureproof-music-festival
 ```
 
 then install the dependencies with
@@ -35,5 +35,3 @@ pnpm dev
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-Please feel free to use/modify any parts of the code as you wish.

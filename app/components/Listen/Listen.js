@@ -21,26 +21,26 @@ export default function Listen() {
 						opacity: isInView ? 1 : 0,
 						transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s",
 					}}>
-					<p>Listen to the new album:</p>
 					<div className="overflow-hidden">
 						<h2
 							className={`font-bold text-6xl pb-6 opacity-0 ${isInView ? "animate-slide-up" : ""}`}>
-							Panic in the room
+							Have a listen to some of out artists music!
 						</h2>
 					</div>
-					<p>
-						Dovrebbero seguire le mie voglie, la sera appena alzato, o tardi la mattina dopo la
-						colazione, prima d&#8217;addormentarmi.
-					</p>
-					<div className="flex items-center pt-4 gap-4">
+					{/*<div className="flex items-center pt-4 gap-4">
 						<Spotify />
 						<SoundCloud />
 						<Youtube />
 						<AppleMusic />
-					</div>
+					</div>*/}
 				</div>
 				<div className="flex items-center justify-center pt-5 basis-2/4 mt-20 lg:mt-0 lg:justify-end lg:pt-[60px]">
-					<AudioPlayer />
+					<iframe
+						src="https://open.spotify.com/embed/playlist/2GwRHOoC09tEqICZ3hKLU9?utm_source=generator&theme=0"
+						width="80%" height="450" frameBorder="0" allowFullScreen=""
+						allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+						loading="lazy"></iframe>
+					{/*<AudioPlayer />*/}
 				</div>
 			</Container>
 		</section>

@@ -17,7 +17,7 @@ export default function Home() {
 				<Video />
 				<ContactUs />
 				<TextParallax />
-				<PhotoGallery />
+				{/*<PhotoGallery />*/}
 			</main>
 		</>
 	);

@@ -42,7 +42,7 @@ export default function Intro() {
 					muted
 					loop
 					poster="/frame-band.jpg"
-					className="object-cover w-full h-full z-10"
+					className="object-cover w-full h-full z-10 brightness-50"
 					playsInline>
 					<source src="./video-band.webm" type="video/webm" />
 					<source src="./video-band.mp4" type="video/mp4" />

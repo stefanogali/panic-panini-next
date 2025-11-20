@@ -14,25 +14,25 @@ const observerOptions = {
 const tourDates = [
 	{
 		id: 1,
-		date: "19 Oct",
-		dayTime: "Friday 20.30 - 23.00",
-		venue: "The O2, Isla Square",
-		city: "London",
+		date: "30th Nov",
+		dayTime: "Born 2 Break",
+		venue: "Doors: 5:00 pm",
+		city: "Inner West Pride Centre",
 	},
-	{
+	/*{
 		id: 2,
-		date: "22 Nov",
-		dayTime: "Wednesday 20.00 - 22.00",
-		venue: "Roundhouse, Chalk Bag Rd",
-		city: "Rome",
+		date: "TBA",
+		dayTime: "TBA",
+		venue: "TBA",
+		city: "TBA",
 	},
 	{
 		id: 3,
-		date: "10 Dec",
-		dayTime: "Saturday 20.00 - 22.00",
-		venue: "200 Camden High St",
-		city: "New York",
-	},
+		date: "TBA",
+		dayTime: "TBA",
+		venue: "TBA",
+		city: "TBA",
+	},*/
 ];
 
 export default function IntroTourDates() {
@@ -48,7 +48,7 @@ export default function IntroTourDates() {
 			}}
 			ref={sectionRef}>
 			<h2 className="text-white font-permanent-marker text-2xl md:text-3xl lg:text-4xl">
-				⚡ Free Template ⚡
+				Upcoming Shows!
 			</h2>
 			<ul className="list-none">
 				{tourDates.map((gig) => {
@@ -56,8 +56,8 @@ export default function IntroTourDates() {
 						<li
 							key={gig.id}
 							className="flex items-center my-10 justify-between text-xl md:justify-end md:text-2xl lg:text-2xl xl:text-3xl">
-							<div className="flex flex-col justify-center items-center date w-[4.7rem] h-[4.7rem] p-2 bg-fluo-green mr-4 text-2xl rounded-md border-8 border-white md:mr-12 lg:w-22 lg:h-22">
-								<p className="font-bold text-xl text-[#6f705f] leading-none text-center uppercase lg:text-3xl">
+							<div className="flex flex-col justify-center items-center date w-[4.7rem] h-[4.7rem] p-2 bg-fluo-green mr-4 text-2xl rounded-md border-white md:mr-12 lg:w-22 lg:h-22">
+								<p className="font-bold text-xl text-white leading-none text-center uppercase lg:text-3xl">
 									{gig.date}
 								</p>
 							</div>
@@ -78,12 +78,12 @@ export default function IntroTourDates() {
 				})}
 			</ul>
 			<div className="gap-x-3 lg:flex">
-				<a href="https://github.com/stefanogali/panic-panini-next" target="_blank" rel="noreferrer">
+				{/*<a href="https://github.com/stefanogali/panic-panini-next" target="_blank" rel="noreferrer">
 					<ButtonPrimary customClasses="flex items-center gap-x-1 text-sm my-3 lg:text-base lg:mb-0">
 						<Github extraClasses="w-3 h-auto fill-white lg:w-5" />
 						Github Repo
 					</ButtonPrimary>
-				</a>
+				</a>*/}
 				<div className="hidden lg:block">
 					<ScrollTo toId="shows" duration={1500}>
 						<ButtonPrimary>Find out more</ButtonPrimary>

@@ -5,6 +5,9 @@ import { useInView } from "framer-motion";
 import Image from "next/image";
 import Container from "@/app/global-components/Container/Container";
 import ContactForm from "@/app/global-components/ContactForm/ContactForm";
+import SubscribeForm from "@/app/global-components/SubscribeForm/SubscribeForm";
+import { Instagram, Facebook } from "@/app/svg-icons/svg-icons";
+
 
 export default function ContactUs() {
 	const textRef = useRef(null);
@@ -35,25 +38,19 @@ export default function ContactUs() {
 								className={`font-bold text-6xl pb-6 opacity-0 ${
 									isInView ? "animate-slide-up" : ""
 								}`}>
-								Contact us
+								Subscribe
 							</h2>
 						</div>
 						<p>
-							And get us a drink in case you around. <br></br>Email us at{" "}
-							<a
-								className="text-yellow-btn-primary underline underline-offset-4 hover:text-yellow-600"
-								href="https://www.paninopanini.co.uk/"
-								target="_blank"
-								rel="noreferrer">
-								{" "}
-								hello@panicpanini.com{" "}
-							</a>{" "}
-							or fill the form below.
+							To our newsletter to get the latest updates and live gigs info, or contact us on instagram or Facebook :D
 						</p>
 					</div>
-					<ContactForm />
+					<SubscribeForm />
+					
 				</div>
+				
 			</Container>
+			
 		</section>
 	);
 }
