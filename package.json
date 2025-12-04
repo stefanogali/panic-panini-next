@@ -13,11 +13,11 @@
     "eslint": "^8.50.0",
     "eslint-config-next": "15.2.4",
     "motion": "^11.14.4",
-    "next": "^15.5.2",
+    "next": "^15.5.7",
     "postcss": "^8.4.31",
-    "react": "19.1.0",
+    "react": "^19.2.1",
     "react-cookie-consent": "^9.0.0",
-    "react-dom": "19.1.0",
+    "react-dom": "^19.2.1",
     "tailwindcss": "^4.1.13",
     "yet-another-react-lightbox": "^3.14.0"
   }
