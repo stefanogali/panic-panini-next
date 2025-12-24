@@ -29,7 +29,7 @@ export default function Footer() {
 						<div className="flex gap-3 md:gap-4">
 							<svg
 								fill="#FFFFFF"
-								className="max-w-6 h-auto lg:max-w-none"
+								className="max-w-6 h-auto lg:max-w-none cursor-pointer"
 								width="52"
 								height="52"
 								id="Layer_1"
@@ -41,7 +41,7 @@ export default function Footer() {
 							</svg>
 							<svg
 								fill="#FFFFFF"
-								className="max-w-6 h-auto lg:max-w-none"
+								className="max-w-6 h-auto lg:max-w-none cursor-pointer"
 								width="52"
 								height="52"
 								viewBox="0 0 580 480"
@@ -50,7 +50,7 @@ export default function Footer() {
 							</svg>
 							<svg
 								fill="#FFFFFF"
-								className="max-w-6 h-auto lg:max-w-none"
+								className="max-w-6 h-auto lg:max-w-none cursor-pointer"
 								width="52"
 								height="52"
 								viewBox="0 0 64 64"

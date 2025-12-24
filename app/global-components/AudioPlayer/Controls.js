@@ -1,6 +1,16 @@
 import { useState, useEffect, useRef, useCallback } from "react";
 import { HeartOutline, PreviousSong, NextSong, Play, Pause } from "@/app/svg-icons/svg-icons";
-export default function Controls({ audioRef, progressBarRef, duration, setTimeProgress, tracks, trackIndex, setTrackIndex, setCurrentTrack, handleNext }) {
+export default function Controls({
+	audioRef,
+	progressBarRef,
+	duration,
+	setTimeProgress,
+	tracks,
+	trackIndex,
+	setTrackIndex,
+	setCurrentTrack,
+	handleNext,
+}) {
 	const [isPlaying, setIsPlaying] = useState(false);
 	const playAnimationRef = useRef();
 
@@ -38,15 +48,21 @@ export default function Controls({ audioRef, progressBarRef, duration, setTimePr
 
 	return (
 		<div className="flex items-center pt-8 pb-4 gap-4">
-			<button onClick={togglePlayPause}>{isPlaying ? <Pause extraClasses="fill-red-300 hover:fill-white transition-all" /> : <Play extraClasses="fill-red-300 hover:fill-white transition-all" />}</button>
-			<button className="ml-auto">
+			<button className="cursor-pointer" onClick={togglePlayPause}>
+				{isPlaying ? (
+					<Pause extraClasses="fill-red-300 hover:fill-white transition-all" />
+				) : (
+					<Play extraClasses="fill-red-300 hover:fill-white transition-all" />
+				)}
+			</button>
+			<button className="ml-auto cursor-pointer">
 				<HeartOutline extraClasses="fill-red-300" />
 			</button>
-			<button onClick={handlePrevious}>
+			<button className="cursor-pointer" onClick={handlePrevious}>
 				<PreviousSong extraClasses="fill-red-300 hover:fill-white transition-all" />
 			</button>
 
-			<button onClick={handleNext}>
+			<button className="cursor-pointer" onClick={handleNext}>
 				<NextSong extraClasses="fill-red-300 hover:fill-white transition-all" />
 			</button>
 		</div>

@@ -11,9 +11,9 @@
   "dependencies": {
     "@tailwindcss/postcss": "^4.1.13",
     "eslint": "^8.50.0",
-    "eslint-config-next": "15.2.4",
+    "eslint-config-next": "^15.5.8",
     "motion": "^11.14.4",
-    "next": "^15.5.7",
+    "next": "^15.5.8",
     "postcss": "^8.4.31",
     "react": "^19.2.1",
     "react-cookie-consent": "^9.0.0",

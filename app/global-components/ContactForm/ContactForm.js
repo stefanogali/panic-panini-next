@@ -27,7 +27,7 @@ export default function ContactForm() {
 				<label className="lock text-sm font-medium leading-6 text-gray-900" htmlFor="message">
 					Your message
 				</label>
-				<textarea className="block w-full bg-transparent rounded-md border p-2.5 text-gray-900 shadow-none placeholder:text-gray-400 focus:outline-hidden focus:ring-2 sm:leading-0 text-xs resize-none" id="message" rows="8"></textarea>
+				<textarea className="block w-full bg-transparent rounded-md border p-2.5 text-gray-900 shadow-none placeholder:text-gray-400 focus:outline-hidden focus:ring-2 leading-normal text-xs resize-none" id="message" rows="8"></textarea>
 			</div>
 			<div className="flex mt-3 lg:justify-end">
 				<ButtonPrimary>Send it</ButtonPrimary>
