@@ -153,10 +153,10 @@ export default function PhotoGallery() {
 									<div className="w-screen h-screen" key={item.id} ref={containerRef}>
 										<Container customClasses="w-full h-full grid md:grid-cols-2 items-center sm:justify-items-center gap-5 leading-none rounded-lg transition-all">
 											<div className="justify-self-start md:justify-self-end flex flex-col gap-2.5">
-												<h3 className="text-4xl md:text-5xl xl:text-6xl font-medium">
+												<h3 className="text-4xl md:text-5xl xl:text-6xl font-medium text-right">
 													{item.club}
 												</h3>
-												<div className="flex items-center justify-start gap-5">
+												<div className="flex items-center justify-start md:justify-end lg:justify-start gap-5">
 													<span className="flex">
 														<MapMapper />
 														<h5 className="ml-2 text-sm md:text-lg">{item.city}</h5>
