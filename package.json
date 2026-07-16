@@ -1,6 +1,6 @@
 {
 	"name": "panic-panini-template",
-	"version": "1.1.0",
+	"version": "1.1.1",
 	"private": true,
 	"scripts": {
 		"dev": "next dev --turbopack",
@@ -16,7 +16,7 @@
 		"next": "^16.2.3",
 		"postcss": "^8.4.31",
 		"react": "^19.2.1",
-		"react-cookie-consent": "^9.0.0",
+		"react-cookie-consent": "^10.0.1",
 		"react-dom": "^19.2.1",
 		"tailwindcss": "^4.1.18",
 		"yet-another-react-lightbox": "^3.14.0"
